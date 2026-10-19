@@ -20,7 +20,6 @@
 
         <form action="{{ route('produk.update', $produk->id) }}" method="POST">
             @csrf
-            <!-- Directive PUT wajib untuk update resource Laravel -->
             @method('PUT')
 
             <div class="mb-4">
